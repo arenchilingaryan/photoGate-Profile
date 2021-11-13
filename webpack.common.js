@@ -11,7 +11,9 @@ module.exports = {
       name: "Profile",
       filename: "main.bundle.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        './Profile': './src/components/Profile.tsx'
+      },
       shared: {
         ...deps,
         react: {
