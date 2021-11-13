@@ -3,7 +3,7 @@ import './App.css';
 
 const Profile = () => {
   return (
-    <div className="div" style={{fontSize: '100px'}}>
+    <div className="div" style={{ fontSize: '100px' }}>
       PROFILE
     </div>
   );
